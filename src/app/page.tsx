@@ -1,10 +1,7 @@
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
-      <secti            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
-              <div className="mb-2">
-                <div className="flex justify-between items-baseline flex-wrap gap-2">
-                  <h3 className="text-2xl font-semibold">Business Analyst Assistant</h3>d="home" className="min-h-screen relative overflow-hidden">
+      <section id="home" className="min-h-screen relative overflow-hidden">
         <div className="intro-gradient" />
         <div className="relative z-10 min-h-screen flex flex-col items-center justify-center">
           <div className="text-center space-y-4 max-w-4xl mx-auto px-4">
