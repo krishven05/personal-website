@@ -161,7 +161,7 @@ API or OpenAI, integrated with React/TypeScript frontend to create a user-friend
               </ul>
             </div>
 
-            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
                   <h3 className="text-2xl font-semibold">AI Data Analyst Intern</h3>
@@ -194,7 +194,7 @@ decision-making and boosted efficiency by 15%</span>
               </ul>
             </div>
 
-            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
                   <h3 className="text-2xl font-semibold">Business Analyst Assistant</h3>
@@ -263,7 +263,7 @@ system scalability and data retrieval</span>
               </ul>
             </div>
             
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm project-card">
               <div className="mb-4">
                 <div className="flex justify-between items-baseline flex-wrap gap-2 mb-2">
                   <h3 className="text-3xl font-semibold">Facial Recognition App</h3>
@@ -300,7 +300,7 @@ system scalability and data retrieval</span>
         <section id="skills" className="min-h-screen py-16">
           <h2 className="text-5xl font-bold mb-10 tracking-tight">Technical Skills</h2>
           <div className="grid grid-cols-1 gap-8">
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
               <div className="flex flex-wrap gap-3">
                 {["C++", "Python", "JavaScript", "TypeScript", "SQL", "R"].map((skill) => (
@@ -311,7 +311,7 @@ system scalability and data retrieval</span>
               </div>
             </div>
             
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Frameworks & Libraries</h3>
               <div className="flex flex-wrap gap-3">
                 {["Flask", "React", "MongoDB", "TensorFlow", "pandas", "NumPy"].map((skill) => (
@@ -322,7 +322,7 @@ system scalability and data retrieval</span>
               </div>
             </div>
             
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Developer Tools & Platforms</h3>
               <div className="flex flex-wrap gap-3">
                 {["AWS", "Git", "VS Code", "XCode"].map((skill) => (
