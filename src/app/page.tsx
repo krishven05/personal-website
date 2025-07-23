@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
@@ -39,13 +37,13 @@ export default function Home() {
           <div className="space-y-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
               <p className="text-xl leading-relaxed mb-6">
-                I'm a passionate Software Engineer and Data Analyst with a strong foundation in computer science and a keen interest in leveraging technology to solve complex problems. My journey in tech has been driven by curiosity and a desire to create meaningful solutions.
+                I&apos;m a passionate Software Engineer and Data Analyst with a strong foundation in computer science and a keen interest in leveraging technology to solve complex problems. My journey in tech has been driven by curiosity and a desire to create meaningful solutions.
               </p>
               <p className="text-xl leading-relaxed mb-6">
-                With experience in full-stack development, data analysis, and machine learning, I enjoy working at the intersection of technology and innovation. I'm constantly learning new technologies and methodologies to stay at the forefront of the rapidly evolving tech landscape.
+                With experience in full-stack development, data analysis, and machine learning, I enjoy working at the intersection of technology and innovation. I&apos;m constantly learning new technologies and methodologies to stay at the forefront of the rapidly evolving tech landscape.
               </p>
               <p className="text-xl leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or working on personal projects that challenge me to grow as a developer.
+                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or working on personal projects that challenge me to grow as a developer.
               </p>
             </div>
           </div>
