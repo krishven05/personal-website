@@ -49,16 +49,22 @@ a:hover span {
   width: 100%;
 }
 
-/* Project/Experience/Skills card hover effect */
+/* Card hover effect for all sections */
 .experience-card,
 .project-card,
-.skill-card {
+.skill-card,
+.about-card,
+.education-card,
+.contact-card {
   transition: all 0.3s ease;
 }
 
 .experience-card:hover,
 .project-card:hover,
-.skill-card:hover {
+.skill-card:hover,
+.about-card:hover,
+.education-card:hover,
+.contact-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.15);

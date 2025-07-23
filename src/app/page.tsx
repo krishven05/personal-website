@@ -1,7 +1,10 @@
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
-      <section id="home" className="min-h-screen relative overflow-hidden">
+      <secti            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
+              <div className="mb-2">
+                <div className="flex justify-between items-baseline flex-wrap gap-2">
+                  <h3 className="text-2xl font-semibold">Business Analyst Assistant</h3>d="home" className="min-h-screen relative overflow-hidden">
         <div className="intro-gradient" />
         <div className="relative z-10 min-h-screen flex flex-col items-center justify-center">
           <div className="text-center space-y-4 max-w-4xl mx-auto px-4">
@@ -35,7 +38,7 @@ export default function Home() {
         <section id="about" className="min-h-screen py-20">
           <h2 className="text-5xl font-bold mb-12 tracking-tight">About</h2>
           <div className="space-y-8">
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm about-card">
               <p className="text-xl leading-relaxed mb-6">
                 I&apos;m a passionate Software Engineer and Data Analyst with a strong foundation in computer science and a keen interest in leveraging technology to solve complex problems. My journey in tech has been driven by curiosity and a desire to create meaningful solutions.
               </p>
@@ -51,7 +54,7 @@ export default function Home() {
         <section id="education" className="min-h-screen py-20">
           <h2 className="text-5xl font-bold mb-12 tracking-tight">Education</h2>
           <div className="space-y-8">
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm education-card">
               <div className="flex flex-col md:flex-row justify-between items-baseline gap-4 mb-6">
                 <h3 className="text-3xl font-semibold tracking-tight">
                   University of Michigan, Ann Arbor
@@ -96,7 +99,7 @@ export default function Home() {
         <section id="experiences" className="min-h-screen py-16">
           <h2 className="text-5xl font-bold mb-10 tracking-tight">Experience</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
                   <h3 className="text-2xl font-semibold">Data Research Assistant</h3>
@@ -127,7 +130,7 @@ samples to create training data pipelines for machine learning workflows</span>
               </ul>
             </div>
 
-            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm">
+            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
                   <h3 className="text-2xl font-semibold">Software Engineer Intern</h3>
@@ -228,7 +231,7 @@ immediate and long-term needs, ensuring development across industries</span>
         <section id="projects" className="min-h-screen py-16">
           <h2 className="text-5xl font-bold mb-10 tracking-tight">Projects</h2>
           <div className="grid grid-cols-1 gap-8">
-                        <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
+                        <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm project-card">
               <div className="mb-4">
                 <div className="flex justify-between items-baseline flex-wrap gap-2 mb-2">
                   <h3 className="text-3xl font-semibold">Fakebook Data Pipeline</h3>
@@ -337,7 +340,7 @@ system scalability and data retrieval</span>
 
         <section id="contact" className="min-h-screen py-16">
           <h2 className="text-5xl font-bold mb-10 tracking-tight">Contact</h2>
-          <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm max-w-2xl mx-auto">
+          <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm max-w-2xl mx-auto contact-card">
             <div className="space-y-6">
               <div className="flex items-center gap-6 p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20">
                 <div className="p-3 bg-gray-200 dark:bg-gray-800 rounded-lg">
