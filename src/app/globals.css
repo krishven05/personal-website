@@ -19,10 +19,28 @@ body {
   inset: -50%;
   width: 200vw;
   height: 200vh;
-  background: radial-gradient(circle at center, rgba(30, 41, 59, 0.3) 0%, var(--background) 70%);
+  background: linear-gradient(
+    45deg,
+    rgba(15, 23, 42, 0.9) 0%,
+    rgba(30, 41, 59, 0.8) 25%,
+    rgba(51, 65, 85, 0.7) 50%,
+    rgba(30, 41, 59, 0.8) 75%,
+    rgba(15, 23, 42, 0.9) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 10s ease-in-out infinite;
   z-index: 0;
   pointer-events: none;
   transform: translateZ(0);
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }
 
 /* Navigation link hover effect */
