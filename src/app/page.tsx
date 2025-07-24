@@ -238,7 +238,7 @@ immediate and long-term needs, ensuring development across industries</span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {["JavaScript", "MongoDB", "Oracle", "Data Migration"].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-gray-200 dark:bg-gray-800 text-sm">
+                    <span key={tech} className="text-sm mr-4 text-gray-400">
                       {tech}
                     </span>
                   ))}
@@ -273,7 +273,7 @@ system scalability and data retrieval</span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {["Python", "Siamese Neural Networks", "TensorFlow", "Kivy"].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-gray-200 dark:bg-gray-800 text-sm">
+                    <span key={tech} className="text-sm mr-4 text-gray-400">
                       {tech}
                     </span>
                   ))}
@@ -304,7 +304,7 @@ system scalability and data retrieval</span>
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
               <div className="flex flex-wrap gap-3">
                 {["C++", "Python", "JavaScript", "TypeScript", "SQL", "R"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-gray-200 dark:bg-gray-800 text-base">
+                  <span key={skill} className="text-base mr-4 mb-2 text-gray-300">
                     {skill}
                   </span>
                 ))}
@@ -315,7 +315,7 @@ system scalability and data retrieval</span>
               <h3 className="text-3xl font-semibold mb-6">Frameworks & Libraries</h3>
               <div className="flex flex-wrap gap-3">
                 {["Flask", "React", "MongoDB", "TensorFlow", "pandas", "NumPy"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-gray-200 dark:bg-gray-800 text-base">
+                  <span key={skill} className="text-base mr-4 mb-2 text-gray-300">
                     {skill}
                   </span>
                 ))}
@@ -326,7 +326,7 @@ system scalability and data retrieval</span>
               <h3 className="text-3xl font-semibold mb-6">Developer Tools & Platforms</h3>
               <div className="flex flex-wrap gap-3">
                 {["AWS", "Git", "VS Code", "XCode"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-gray-200 dark:bg-gray-800 text-base">
+                  <span key={skill} className="text-base mr-4 mb-2 text-gray-300">
                     {skill}
                   </span>
                 ))}
