@@ -91,3 +91,23 @@ a:hover span {
   background-color: rgba(255, 255, 255, 0.05);
   color: #ffffff;
 }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .min-h-screen {
+    min-height: auto;
+  }
+  
+  section {
+    scroll-margin-top: 4rem;
+  }
+  
+  .experience-card,
+  .project-card,
+  .skill-card,
+  .about-card,
+  .education-card,
+  .contact-card {
+    padding: 1rem;
+  }
+}

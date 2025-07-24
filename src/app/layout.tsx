@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Personal Website",
-  description: "Personal portfolio website showcasing skills, experience, and projects",
+  title: "Krishanth Venkatachalam - Personal Website",
+  description: "Personal portfolio website showcasing my skills, experience, and projects",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
 export default function RootLayout({

@@ -5,8 +5,8 @@ export default function Home() {
         <div className="intro-gradient" />
         <div className="relative z-10 min-h-screen flex flex-col items-center justify-center">
           <div className="text-center space-y-4 max-w-4xl mx-auto px-4">
-            <h1 className="text-6xl font-bold">Krishanth Venkatachalam</h1>
-            <h2 className="text-2xl text-gray-400">
+            <h1 className="text-4xl md:text-6xl font-bold">Krishanth Venkatachalam</h1>
+            <h2 className="text-xl md:text-2xl text-gray-400">
               Data Analyst | Software Engineer
             </h2>
             <div className="flex gap-4 text-gray-400 justify-center">
@@ -31,9 +31,9 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="max-w-6xl mx-auto px-4">
-        <section id="about" className="min-h-screen py-20">
-          <h2 className="text-5xl font-bold mb-12 tracking-tight">About</h2>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <section id="about" className="min-h-screen py-12 md:py-20">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight">About</h2>
           <div className="space-y-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm about-card">
               <p className="text-xl leading-relaxed mb-6">
@@ -48,8 +48,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="education" className="min-h-screen py-20">
-          <h2 className="text-5xl font-bold mb-12 tracking-tight">Education</h2>
+        <section id="education" className="min-h-screen py-12 md:py-20">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight">Education</h2>
           <div className="space-y-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm education-card">
               <div className="flex flex-col md:flex-row justify-between items-baseline gap-4 mb-6">
@@ -93,8 +93,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="experiences" className="min-h-screen py-16">
-          <h2 className="text-5xl font-bold mb-10 tracking-tight">Experience</h2>
+        <section id="experiences" className="min-h-screen py-12 md:py-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Experience</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
@@ -225,14 +225,14 @@ immediate and long-term needs, ensuring development across industries</span>
           </div>
         </section>
 
-        <section id="projects" className="min-h-screen py-16">
-          <h2 className="text-5xl font-bold mb-10 tracking-tight">Projects</h2>
+        <section id="projects" className="min-h-screen py-12 md:py-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Projects</h2>
           <div className="grid grid-cols-1 gap-8">
                         <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm project-card">
               <div className="mb-4">
                 <div className="flex justify-between items-baseline flex-wrap gap-2 mb-2">
-                  <h3 className="text-3xl font-semibold">Fakebook Data Pipeline</h3>
-                  <span className="text-base text-gray-600 dark:text-gray-400">
+                  <h3 className="text-2xl md:text-3xl font-semibold">Fakebook Data Pipeline</h3>
+                  <span className="text-sm md:text-base text-gray-600 dark:text-gray-400">
                     Jan. 2025 - Feb. 2025
                   </span>
                 </div>
@@ -297,8 +297,8 @@ system scalability and data retrieval</span>
           </div>
         </section>
 
-        <section id="skills" className="min-h-screen py-16">
-          <h2 className="text-5xl font-bold mb-10 tracking-tight">Technical Skills</h2>
+        <section id="skills" className="min-h-screen py-12 md:py-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Technical Skills</h2>
           <div className="grid grid-cols-1 gap-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
@@ -335,13 +335,13 @@ system scalability and data retrieval</span>
           </div>
         </section>
 
-        <section id="contact" className="min-h-screen py-16">
-          <h2 className="text-5xl font-bold mb-10 tracking-tight">Contact</h2>
-          <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm max-w-2xl mx-auto contact-card">
-            <div className="space-y-6">
-              <div className="flex items-center gap-6 p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20 contact-item">
-                <div className="p-3 bg-gray-200 dark:bg-gray-800 rounded-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <section id="contact" className="min-h-screen py-12 md:py-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Contact</h2>
+          <div className="bg-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm max-w-2xl mx-auto contact-card">
+            <div className="space-y-4 md:space-y-6">
+              <div className="flex flex-wrap items-center gap-4 md:gap-6 p-3 md:p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20 contact-item">
+                <div className="p-2 md:p-3 bg-gray-200 dark:bg-gray-800 rounded-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 md:w-6 md:h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
                 </div>
