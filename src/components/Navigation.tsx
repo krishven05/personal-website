@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Navigation = () => {
+  // Used to track active section when clicking links
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [activeSection, setActiveSection] = useState("");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
@@ -36,20 +38,23 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight">About</h2>
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
             <div className="w-full md:w-2/5 slide-in-left">
-              <img 
+              <Image 
                 src="/Portrait.jpg" 
                 alt="Krishanth Venkatachalam" 
                 className="rounded-2xl shadow-lg w-full h-auto"
+                width={500}
+                height={600}
+                priority
               />
             </div>
             <div className="w-full md:w-3/5 slide-in-right">
               <h3 className="text-xl md:text-2xl mb-6">My name is Krishanth, and I love data, coding, and problem-solving.</h3>
               <div className="space-y-6 text-white" style={{color: '#ffffff'}}>
                 <p className="text-xl md:text-2xl leading-relaxed">
-                  I am a third-year student at the University of Michigan studying data science and economics. I'm passionate about leveraging new technologies, data analysis, and machine learning to create innovative solutions to complex problems.
+                  I am a third-year student at the University of Michigan studying data science and economics. I&apos;m passionate about leveraging new technologies, data analysis, and machine learning to create innovative solutions to complex problems.
                 </p>
                 <p className="text-xl md:text-2xl leading-relaxed">
-                  When I'm not coding, I enjoy watching movies, reading books, and eating sour patch kids. I also love dancing, having taken part in dance teams and travelling to competitions nationally.
+                  When I&apos;m not coding, I enjoy watching movies, reading books, and eating sour patch kids. I also love dancing, having taken part in dance teams and travelling to competitions nationally.
                 </p>
               </div>
             </div>
