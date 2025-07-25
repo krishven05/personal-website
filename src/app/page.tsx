@@ -48,8 +48,10 @@ export default function Home() {
               />
             </div>
             <div className="w-full md:w-3/5 slide-in-right">
-              <h3 className="text-xl md:text-2xl mb-6">My name is Krishanth, and I love data, coding, and problem-solving.</h3>
-              <div className="space-y-6 text-white" style={{color: '#ffffff'}}>
+              <div className="space-y-6" style={{color: '#ffffff'}}>
+                <p className="text-xl md:text-2xl leading-relaxed">
+                  My name is Krishanth, and I love data, coding, and problem-solving.
+                </p>
                 <p className="text-xl md:text-2xl leading-relaxed">
                   I am a third-year student at the University of Michigan studying data science and economics. I&apos;m passionate about leveraging new technologies, data analysis, and machine learning to create innovative solutions to complex problems.
                 </p>
