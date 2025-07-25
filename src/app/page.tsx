@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <section id="about" className="min-h-screen py-12 md:py-20">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight text-gray-200">About</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight">About</h2>
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
             <div className="w-full md:w-2/5 slide-in-left">
               <Image 
@@ -61,22 +61,22 @@ export default function Home() {
           </div>
         </section>
         <section id="education" className="min-h-screen py-12 md:py-20">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight text-gray-200">Education</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight">Education</h2>
           <div className="space-y-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm education-card">
               <div className="flex flex-col md:flex-row justify-between items-baseline gap-4 mb-6">
-                <h3 className="text-3xl font-semibold tracking-tight text-gray-200">
+                <h3 className="text-3xl font-semibold tracking-tight">
                   University of Michigan, Ann Arbor
                 </h3>
-                <span className="text-lg font-medium text-gray-300">
+                <span className="text-lg text-gray-400 font-medium">
                   Ann Arbor, MI
                 </span>
               </div>
               <div className="flex flex-col md:flex-row justify-between items-baseline gap-4 mb-6">
-                <p className="text-xl font-medium text-gray-200">
+                <p className="text-xl font-medium">
                   Bachelor of Arts in Data Science and Economics
                 </p>
-                <span className="text-lg text-gray-300">
+                <span className="text-lg text-gray-600 dark:text-gray-400">
                   Expected May 2027
                 </span>
               </div>
@@ -106,7 +106,7 @@ export default function Home() {
         </section>
 
         <section id="experiences" className="min-h-screen py-12 md:py-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight text-gray-200">Experience</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Experience</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
@@ -238,7 +238,7 @@ immediate and long-term needs, ensuring development across industries</span>
         </section>
 
         <section id="projects" className="min-h-screen py-12 md:py-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight text-gray-200">Projects</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Projects</h2>
           <div className="grid grid-cols-1 gap-8">
                         <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm project-card">
               <div className="mb-4">
@@ -310,7 +310,7 @@ system scalability and data retrieval</span>
         </section>
 
         <section id="skills" className="min-h-screen py-12 md:py-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight text-gray-200">Technical Skills</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Technical Skills</h2>
           <div className="grid grid-cols-1 gap-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
@@ -348,7 +348,7 @@ system scalability and data retrieval</span>
         </section>
 
         <section id="contact" className="min-h-screen py-12 md:py-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight text-gray-200">Contact</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Contact</h2>
           <div className="bg-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm max-w-2xl mx-auto contact-card">
             <div className="space-y-4 md:space-y-6">
               <div className="flex flex-wrap items-center gap-4 md:gap-6 p-3 md:p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20 contact-item">
