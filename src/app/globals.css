@@ -79,17 +79,10 @@ a:hover span {
   transform: translateY(-2px);
 }
 
-/* Course items hover effect */
+/* Course items styling */
 .course-item {
-  transition: transform 0.2s ease, color 0.2s ease;
   padding: 4px 8px;
   border-radius: 4px;
-}
-
-.course-item:hover {
-  transform: translateX(4px);
-  background-color: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
 }
 
 /* Mobile optimizations */
@@ -117,4 +110,35 @@ a:hover span {
   section {
     scroll-margin-top: 5rem;
   }
+}
+
+/* Slide animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 0.8s ease-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInFromRight 0.8s ease-out forwards;
 }

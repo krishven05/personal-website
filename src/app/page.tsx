@@ -34,17 +34,24 @@ export default function Home() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <section id="about" className="min-h-screen py-12 md:py-20">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 tracking-tight">About</h2>
-          <div className="space-y-8">
-            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm about-card">
-              <p className="text-xl leading-relaxed mb-6">
-                I&apos;m a passionate Software Engineer and Data Analyst with a strong foundation in computer science and a keen interest in leveraging technology to solve complex problems. My journey in tech has been driven by curiosity and a desire to create meaningful solutions.
-              </p>
-              <p className="text-xl leading-relaxed mb-6">
-                With experience in full-stack development, data analysis, and machine learning, I enjoy working at the intersection of technology and innovation. I&apos;m constantly learning new technologies and methodologies to stay at the forefront of the rapidly evolving tech landscape.
-              </p>
-              <p className="text-xl leading-relaxed">
-                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or working on personal projects that challenge me to grow as a developer.
-              </p>
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+            <div className="w-full md:w-2/5 slide-in-left">
+              <img 
+                src="/Portrait.jpg" 
+                alt="Krishanth Venkatachalam" 
+                className="rounded-2xl shadow-lg w-full h-auto"
+              />
+            </div>
+            <div className="w-full md:w-3/5 slide-in-right">
+              <h3 className="text-xl md:text-2xl mb-6">My name is Krishanth, and I love data, coding, and problem-solving.</h3>
+              <div className="space-y-6 text-white" style={{color: '#ffffff'}}>
+                <p className="text-xl md:text-2xl leading-relaxed">
+                  I am a third-year student at the University of Michigan studying data science and economics. I'm passionate about leveraging new technologies, data analysis, and machine learning to create innovative solutions to complex problems.
+                </p>
+                <p className="text-xl md:text-2xl leading-relaxed">
+                  When I'm not coding, I enjoy watching movies, reading books, and eating sour patch kids. I also love dancing, having taken part in dance teams and travelling to competitions nationally.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -69,23 +76,23 @@ export default function Home() {
                 </span>
               </div>
               <div className="mt-6">
-                <h4 className="text-lg font-semibold mb-3">Relevant Coursework</h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-400">
+                <h4 className="text-lg font-semibold mb-3" style={{color: '#ffffff'}}>Relevant Coursework</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-2 course-item">
-                    <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
-                    <span>Intro to Machine Learning</span>
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Intro to Machine Learning</span>
                   </div>
                   <div className="flex items-center space-x-2 course-item">
-                    <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
-                    <span>Applied Regression</span>
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Applied Regression</span>
                   </div>
                   <div className="flex items-center space-x-2 course-item">
-                    <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
-                    <span>Database Management Systems</span>
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Database Management Systems</span>
                   </div>
                   <div className="flex items-center space-x-2 course-item">
-                    <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
-                    <span>Data Structures and Algorithms</span>
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Data Structures and Algorithms</span>
                   </div>
                 </div>
               </div>
