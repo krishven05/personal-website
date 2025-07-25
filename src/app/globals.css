@@ -99,7 +99,7 @@ a:hover span {
   }
   
   section {
-    scroll-margin-top: 4rem;
+    scroll-margin-top: 6rem;
   }
   
   .experience-card,
@@ -109,5 +109,12 @@ a:hover span {
   .education-card,
   .contact-card {
     padding: 1rem;
+  }
+}
+
+/* Desktop scroll margin */
+@media (min-width: 769px) {
+  section {
+    scroll-margin-top: 5rem;
   }
 }

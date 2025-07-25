@@ -9,7 +9,7 @@ export default function Home() {
             <h2 className="text-xl md:text-2xl text-gray-400">
               Data Analyst | Software Engineer
             </h2>
-            <div className="flex gap-4 text-gray-400 justify-center">
+            <div className="flex gap-6 md:gap-8 text-gray-400 justify-center mt-4">
               <span>
                 248-962-6380
               </span>
@@ -238,7 +238,7 @@ immediate and long-term needs, ensuring development across industries</span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {["JavaScript", "MongoDB", "Oracle", "Data Migration"].map((tech) => (
-                    <span key={tech} className="text-sm mr-4 text-gray-400">
+                    <span key={tech} className="text-sm px-3 py-1 bg-black/30 border border-gray-700/50 rounded-xl mr-2 mb-2 inline-block">
                       {tech}
                     </span>
                   ))}
@@ -273,7 +273,7 @@ system scalability and data retrieval</span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {["Python", "Siamese Neural Networks", "TensorFlow", "Kivy"].map((tech) => (
-                    <span key={tech} className="text-sm mr-4 text-gray-400">
+                    <span key={tech} className="text-sm px-3 py-1 bg-black/30 border border-gray-700/50 rounded-xl mr-2 mb-2 inline-block">
                       {tech}
                     </span>
                   ))}
@@ -304,7 +304,7 @@ system scalability and data retrieval</span>
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
               <div className="flex flex-wrap gap-3">
                 {["C++", "Python", "JavaScript", "TypeScript", "SQL", "R"].map((skill) => (
-                  <span key={skill} className="text-base mr-4 mb-2 text-gray-300">
+                  <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
                 ))}
@@ -315,7 +315,7 @@ system scalability and data retrieval</span>
               <h3 className="text-3xl font-semibold mb-6">Frameworks & Libraries</h3>
               <div className="flex flex-wrap gap-3">
                 {["Flask", "React", "MongoDB", "TensorFlow", "pandas", "NumPy"].map((skill) => (
-                  <span key={skill} className="text-base mr-4 mb-2 text-gray-300">
+                  <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
                 ))}
@@ -326,7 +326,7 @@ system scalability and data retrieval</span>
               <h3 className="text-3xl font-semibold mb-6">Developer Tools & Platforms</h3>
               <div className="flex flex-wrap gap-3">
                 {["AWS", "Git", "VS Code", "XCode"].map((skill) => (
-                  <span key={skill} className="text-base mr-4 mb-2 text-gray-300">
+                  <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
                 ))}
@@ -340,7 +340,7 @@ system scalability and data retrieval</span>
           <div className="bg-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm max-w-2xl mx-auto contact-card">
             <div className="space-y-4 md:space-y-6">
               <div className="flex flex-wrap items-center gap-4 md:gap-6 p-3 md:p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20 contact-item">
-                <div className="p-2 md:p-3 bg-gray-200 dark:bg-gray-800 rounded-lg">
+                <div className="p-2 md:p-3 bg-black/30 border border-gray-700/50 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 md:w-6 md:h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
@@ -357,7 +357,7 @@ system scalability and data retrieval</span>
               </div>
 
               <div className="flex items-center gap-6 p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20 contact-item">
-                <div className="p-3 bg-gray-200 dark:bg-gray-800 rounded-lg">
+                <div className="p-3 bg-black/30 border border-gray-700/50 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                   </svg>
@@ -373,7 +373,7 @@ system scalability and data retrieval</span>
               </div>
 
               <div className="flex items-center gap-6 p-4 bg-gray-200/10 rounded-xl transition-all hover:bg-gray-200/20 contact-item">
-                <div className="p-3 bg-gray-200 dark:bg-gray-800 rounded-lg">
+                <div className="p-3 bg-black/30 border border-gray-700/50 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
                   </svg>
