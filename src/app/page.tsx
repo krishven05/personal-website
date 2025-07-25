@@ -108,7 +108,7 @@ export default function Home() {
         </section>
 
         <section id="experiences" className="min-h-screen py-12 md:py-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Experience</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Experiences</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
@@ -312,7 +312,7 @@ system scalability and data retrieval</span>
         </section>
 
         <section id="skills" className="min-h-screen py-12 md:py-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Technical Skills</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Skills</h2>
           <div className="grid grid-cols-1 gap-8">
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
