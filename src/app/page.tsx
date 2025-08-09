@@ -251,7 +251,7 @@ immediate and long-term needs, ensuring development across industries</span>
                   </span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
-                  {["JavaScript", "MongoDB", "Oracle", "Data Migration"].map((tech) => (
+                  {["Python", "pandas", "NumPy"].map((tech) => (
                     <span key={tech} className="text-sm px-3 py-1 bg-black/30 border border-gray-700/50 rounded-xl mr-2 mb-2 inline-block">
                       {tech}
                     </span>
