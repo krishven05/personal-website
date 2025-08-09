@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Navigation = () => {
+  // Used to track active section when clicking links
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [activeSection, setActiveSection] = useState("");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,11 +29,11 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 px-4 py-4 md:p-6 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 px-4 py-4 md:py-6 z-50 transition-all duration-300 ${
       scrolled || menuOpen ? "bg-black/30 backdrop-blur-lg" : "bg-transparent"
     }`}>
-      <div className="max-w-6xl mx-auto flex items-center justify-between">
-        <div className="md:hidden">
+      <div className="w-full flex items-center justify-end md:pr-8">
+        <div className="md:hidden absolute left-4">
           <button 
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-white p-2"
@@ -49,9 +51,9 @@ const Navigation = () => {
           </button>
         </div>
         
-        <ul className={`${menuOpen ? 'flex flex-col absolute top-16 left-0 right-0 bg-black/90 p-4 space-y-4 backdrop-blur-lg' : 'hidden'} md:flex md:flex-row md:items-center md:space-y-0 md:bg-transparent md:p-0 w-full md:justify-end`}>
+        <ul className={`${menuOpen ? 'flex flex-col absolute top-16 left-0 right-0 bg-black/90 p-4 space-y-4 backdrop-blur-lg' : 'hidden'} md:flex md:flex-row md:items-center md:space-y-0 md:bg-transparent md:p-0 md:space-x-8`}>
           {navItems.map((item) => (
-            <li key={item.name} className="md:ml-8">
+            <li key={item.name}>
               <Link
                 href={item.href}
                 className="relative py-2 text-sm font-medium transition-colors hover:text-gray-100 block"
@@ -65,7 +67,7 @@ const Navigation = () => {
               </Link>
             </li>
           ))}
-          <li className="md:ml-8">
+          <li>
             <Link
               href="#contact"
               className="relative py-2 text-sm font-medium transition-colors hover:text-gray-100 block"

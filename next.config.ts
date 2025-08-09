@@ -1,10 +1,7 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-	reactStrictMode: true,
-	images: {
-		// Add remotePatterns here if you start using external images
-	}
+  /* config options here */
 };
 
 export default nextConfig;
