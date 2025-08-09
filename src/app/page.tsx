@@ -242,6 +242,37 @@ immediate and long-term needs, ensuring development across industries</span>
         <section id="projects" className="min-h-screen py-12 md:py-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Projects</h2>
           <div className="grid grid-cols-1 gap-8">
+            <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm project-card">
+              <div className="mb-4">
+                <div className="flex justify-between items-baseline flex-wrap gap-2 mb-2">
+                  <h3 className="text-2xl md:text-3xl font-semibold">Factor Alpha</h3>
+                  <span className="text-sm md:text-base text-gray-600 dark:text-gray-400">
+                    Jul. 2026 - Aug. 2026
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {["Python", "pandas", "NumPy", "Backtesting", "CLI", "CI/CD"].map((tech) => (
+                    <span key={tech} className="text-sm px-3 py-1 bg-black/30 border border-gray-700/50 rounded-xl mr-2 mb-2 inline-block">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <ul className="mt-6 space-y-4 text-base">
+                <li className="flex gap-3">
+                  <span className="text-gray-400 flex-shrink-0">•</span>
+                  <span>Built a momentum and multi-factor (momentum, value, quality) backtesting toolkit on the S&amp;P 500 with monthly data, caching, and metrics (CAGR, Sharpe, Max Drawdown)</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gray-400 flex-shrink-0">•</span>
+                  <span>Implemented metrics pipeline (CAGR, Sharpe, Max Drawdown) and excess-return reporting, generating publication-ready plots within 2.8 seconds</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gray-400 flex-shrink-0">•</span>
+                  <span>Engineered a modular CLI-driven architecture with automated CI (ruff, mypy, pytest) enabling rapid plug-in of new factors and reproducible one-command reruns</span>
+                </li>
+              </ul>
+            </div>
                         <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm project-card">
               <div className="mb-4">
                 <div className="flex justify-between items-baseline flex-wrap gap-2 mb-2">
