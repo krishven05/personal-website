@@ -115,7 +115,7 @@ export default function Home() {
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
                   <h3 className="text-2xl font-semibold">Data Research Assistant</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">
-                    June 2025 - Present
+                    June 2025 - Aug. 2025
                   </span>
                 </div>
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
@@ -130,7 +130,7 @@ export default function Home() {
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Developing learning models to predict electronic circular dichroism (ECD) spectra from molecular structural
+                  <span>Developed learning models to predict electronic circular dichroism (ECD) spectra from molecular structural
 fingerprints and physicochemical features, bridging experimental data gaps in current natural product research</span>
                 </li>
                 <li className="flex gap-2">
@@ -146,7 +146,7 @@ samples to create training data pipelines for machine learning workflows</span>
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
                   <h3 className="text-2xl font-semibold">Software Engineer Intern</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">
-                    May 2025 - Present
+                    May 2025 - Aug. 2025
                   </span>
                 </div>
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
@@ -159,7 +159,7 @@ samples to create training data pipelines for machine learning workflows</span>
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Engineering a real estate chatbot leveraging the ATTOM property data API and GPT-4 NLP models,
+                  <span>Engineered a real estate chatbot leveraging the ATTOM property data API and GPT-4 NLP models,
 automating user query workflows and reducing manual intervention</span>
                 </li>
                 <li className="flex gap-2">
