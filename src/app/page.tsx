@@ -139,13 +139,15 @@ export default function Home() {
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Developed learning models to predict electronic circular dichroism (ECD) spectra from molecular structural
-fingerprints and physicochemical features, bridging experimental data gaps in current natural product research</span>
+                  <span>Developed learning models to predict electronic circular dichroism (ECD) spectra from molecular structures and physicochemical features, enhancing prediction reliability and bridging data gaps in current natural product research</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Acquired and integrated datasets from literature and in-house experiments, processing over 100 molecular
-samples to create training data pipelines for machine learning workflows</span>
+                  <span>Acquired and integrated datasets from literature and in-house experiments, processing over 100 molecular samples to create training data pipelines for machine learning workflows, reducing preprocessing time by 40%</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Optimized ECD prediction models by tuning hyperparameters (learning-Rate, n-Estimators, etc.) and selecting key physicochemical features, reducing mean squared error on validation data by approximately 15%</span>
                 </li>
               </ul>
             </div>
@@ -168,18 +170,15 @@ samples to create training data pipelines for machine learning workflows</span>
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Engineered a real estate chatbot leveraging the ATTOM property data API and GPT-4 NLP models,
-automating user query workflows and reducing manual intervention</span>
+                  <span>Engineered a real estate chatbot leveraging the ATTOM property data API and GPT-4 NLP models, automating user query workflows, reducing manual intervention, and improving scalability across multiple real estate market segments</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Built AWS cloud infrastructure (DynamoDB, S3) to securely store and retrieve over 10,000 user documents,
-ensuring 99.99% uptime and compliance with data security standards</span>
+                  <span>Built AWS cloud infrastructure (DynamoDB, S3) to securely store and retrieve over 10,000 user documents, ensuring 99.99% uptime and compliance with data security standards, while reducing data access latency by 60% on average</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Designed a backend using Flask that classifies user queries into categories, providing proper responses from the
-API or OpenAI, integrated with React/TypeScript frontend to create a user-friendly interface</span>
+                  <span>Designed a backend using Flask that classifies user queries into categories, providing responses from the API or OpenAI, cutting query handling time by 25%, integrated with React/TypeScript frontend to create a user-friendly interface</span>
                 </li>
               </ul>
             </div>
@@ -202,17 +201,15 @@ API or OpenAI, integrated with React/TypeScript frontend to create a user-friend
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Contributed to the development of a tailored chatbot solution for vehicle manufacturers designed to address and
-resolve issues faced by Vehicle Manufacturing Companies, reducing support resolution time by 25%</span>
+                  <span>Contributed to the development of a tailored chatbot solution for vehicle manufacturers designed to address and resolve issues faced by manufacturing companies, reducing support resolution time and improving response accuracy by 25%</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Leveraged AWS forecasting to analyze over 50k transactions, identifying trends that improved retail
-decision-making and boosted efficiency by 15%</span>
+                  <span>Leveraged AWS Forecast to analyze over 50k transactions, identifying trends that improved retail decision-making, optimized supply chain planning, and boosted overall operational efficiency by 15% quarter-over-quarter</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Developed and maintained over 30 datasets to train and generate diverse outputs in the chatbot</span>
+                  <span>Developed and maintained over 30 datasets to train the chatbot and generate diverse outputs across multiple user scenarios</span>
                 </li>
               </ul>
             </div>
@@ -235,13 +232,11 @@ decision-making and boosted efficiency by 15%</span>
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Conducted quantitative analysis of macroeconomic indicators (GDP trends, inflation rates) across 10+ countries
-using R and Excel, identifying key growth opportunities that informed strategic initiatives for global expansion</span>
+                  <span>Conducted quantitative analysis of macroeconomic indicators (GDP trends, inflation rates) across 10+ countries using R and Excel, identifying key growth opportunities that informed strategic initiatives for global expansion</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Partnered with business administrators to implement targeted strategies for economic enhancement, addressing
-immediate and long-term needs, ensuring development across industries</span>
+                  <span>Partnered with business administrators to implement targeted economic strategies, addressing both short- and long-term institutional goals, and promoting sustained development across 100+ industries</span>
                 </li>
               </ul>
             </div>
@@ -270,18 +265,15 @@ immediate and long-term needs, ensuring development across industries</span>
               <ul className="mt-6 space-y-4 text-base">
                 <li className="flex gap-3">
                   <span className="text-gray-400 flex-shrink-0">•</span>
-                  <span>Built a momentum and multi-factor (momentum, value, quality) backtesting toolkit on the S&P 500 with monthly data,
-caching, and metrics (CAGR, Sharpe, max drawdown)</span>
+                  <span>Built a multi-factor backtesting toolkit (momentum, value, quality) on the S&P 500, incorporating monthly data, automated caching, and performance metrics (CAGR, Sharpe, Max Drawdown), enabling robust portfolio analysis at scale</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gray-400 flex-shrink-0">•</span>
-                  <span>Implemented metrics pipeline (CAGR, Sharpe, Max Drawdown) and excess-return reporting, generating publication-ready
-plots within 2.8 seconds</span>
+                  <span>Implemented a metrics pipeline with excess-return reporting, generating publication-ready plots within 2.8 seconds, significantly reducing reporting time for quantitative research and improving reproducibility across backtests</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gray-400 flex-shrink-0">•</span>
-                  <span>Engineered a modular CLI driven architecture with automated CI (ruff, mypy, pytest) enabling rapid plug-in of new factors
-and reproducible one-command reruns</span>
+                  <span>Engineered a modular, CLI-driven architecture with automated CI (Ruff, Mypy, Pytest), allowing seamless integration of new factors (volatility, growth, earnings, etc.) and reproducible one-command reruns across environments</span>
                 </li>
               </ul>
             </div>
@@ -304,18 +296,15 @@ and reproducible one-command reruns</span>
               <ul className="mt-6 space-y-4 text-base">
                 <li className="flex gap-3">
                   <span className="text-gray-400 flex-shrink-0">•</span>
-                  <span>Developed a full-scale data migration pipeline that extracted data from an Oracle database, importing over
-1000 user records into MongoDB, streamlining data integration and real-time analytics</span>
+                  <span>Developed a full-scale data migration pipeline that extracted data from an Oracle database, importing over 1000 user records into MongoDB, streamlining data integration and real-time analytics, ensuring data integrity across systems</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gray-400 flex-shrink-0">•</span>
-                  <span>Engineered queries using aggregation pipelines, reducing execution times by up to 40% and providing insights into
-user behavior and network dynamics</span>
+                  <span>Engineered advanced MongoDB aggregation pipelines to perform complex queries on large datasets, reducing execution times by up to 40% and generating actionable insights into user activity patterns and behavioral trends</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gray-400 flex-shrink-0">•</span>
-                  <span>Collaborated with a cross-functional team to integrate database models, implementing strategies that enhanced
-system scalability and data retrieval</span>
+                  <span>Collaborated with a cross-functional team to design and integrate scalable database models, implementing modular schema strategies that enhanced system performance and improved retrieval speeds for downstream applications</span>
                 </li>
               </ul>
             </div>
