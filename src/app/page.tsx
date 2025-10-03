@@ -119,38 +119,6 @@ export default function Home() {
         <section id="experiences" className="min-h-screen py-12 md:py-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 tracking-tight">Experiences</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
-              <div className="mb-2">
-                <div className="flex justify-between items-baseline flex-wrap gap-2">
-                  <h3 className="text-2xl font-semibold">Data Research Assistant</h3>
-                  <span className="text-sm text-gray-600 dark:text-gray-400">
-                    June 2025 - Aug. 2025
-                  </span>
-                </div>
-                <div className="flex justify-between items-baseline flex-wrap gap-2">
-                  <p className="text-base italic">
-                    University of Michigan, Natural Products Discovery Core
-                  </p>
-                  <span className="text-sm text-gray-600 dark:text-gray-400">
-                    Ann Arbor, MI
-                  </span>
-                </div>
-              </div>
-              <ul className="mt-3 space-y-2 text-sm">
-                <li className="flex gap-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Developed learning models to predict electronic circular dichroism (ECD) spectra from molecular structures and physicochemical features, enhancing prediction reliability and bridging data gaps in current natural product research</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Acquired and integrated datasets from literature and in-house experiments, processing over 100 molecular samples to create training data pipelines for machine learning workflows, reducing preprocessing time by 40%</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Optimized ECD prediction models by tuning hyperparameters (learning-Rate, n-Estimators, etc.) and selecting key physicochemical features, reducing mean squared error on validation data by approximately 15%</span>
-                </li>
-              </ul>
-            </div>
 
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
@@ -179,6 +147,44 @@ export default function Home() {
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
                   <span>Designed a backend using Flask that classifies user queries into categories, providing responses from the API or OpenAI, cutting query handling time by 25%, integrated with React/TypeScript frontend to create a user-friendly interface</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Containerized backend services using Docker, enabling consistent setups and streamlining deployment workflows across the CI/CD pipeline, reducing deployment time by 40% and minimizing integration bugs through reproducible builds</span>
+                </li>
+              </ul>
+            </div>
+
+
+            <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
+              <div className="mb-2">
+                <div className="flex justify-between items-baseline flex-wrap gap-2">
+                  <h3 className="text-2xl font-semibold">Data Research Assistant</h3>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">
+                    June 2025 - Aug. 2025
+                  </span>
+                </div>
+                <div className="flex justify-between items-baseline flex-wrap gap-2">
+                  <p className="text-base italic">
+                    University of Michigan, Natural Products Discovery Core
+                  </p>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">
+                    Ann Arbor, MI
+                  </span>
+                </div>
+              </div>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li className="flex gap-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Designed learning models to predict electronic circular dichroism (ECD) spectra from molecular structure data and physicochemical features, increasing prediction accuracy and bridging data gaps in current natural product research</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Built scalable data ingestion pipelines to process 100+ molecular datasets from published literature and internal experiments, reducing preprocessing time by 40% and streamlining model training across various compound classes</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Optimized ECD prediction models by tuning hyperparameters (learning-Rate, n-Estimators, etc.) and selecting key physicochemical features, reducing mean squared error on validation data by approximately 15%</span>
                 </li>
               </ul>
             </div>
@@ -349,7 +355,7 @@ export default function Home() {
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
               <div className="flex flex-wrap gap-3">
-                {["C++", "Python", "JavaScript", "TypeScript", "SQL", "R"].map((skill) => (
+                {["C++", "Python", "JavaScript", "SQL", "R"].map((skill) => (
                   <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
@@ -360,7 +366,7 @@ export default function Home() {
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Frameworks & Libraries</h3>
               <div className="flex flex-wrap gap-3">
-                {["Flask", "React", "MongoDB", "TensorFlow", "pandas", "NumPy"].map((skill) => (
+                {["Flask", "React","TypeScript", "TensorFlow", "pandas", "NumPy"].map((skill) => (
                   <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
@@ -371,7 +377,7 @@ export default function Home() {
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Developer Tools & Platforms</h3>
               <div className="flex flex-wrap gap-3">
-                {["AWS", "Git", "VS Code", "XCode"].map((skill) => (
+                {["AWS", "Git", "Docker", "MongoDB", "VS Code", "XCode"].map((skill) => (
                   <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
