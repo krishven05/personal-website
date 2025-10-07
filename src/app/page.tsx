@@ -184,7 +184,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Optimized ECD prediction models by tuning hyperparameters (learning-Rate, n-Estimators, etc.) and selecting key physicochemical features, reducing mean squared error on validation data by approximately 15%</span>
+                  <span>Optimized ECD prediction models by systematically tuning hyperparameters (learning-rate, n-estimators, etc.) and selecting key physicochemical features, effectively reducing mean squared error on validation data by approximately 15%</span>
                 </li>
               </ul>
             </div>
@@ -207,15 +207,15 @@ export default function Home() {
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Contributed to the development of a tailored chatbot solution for vehicle manufacturers designed to address and resolve issues faced by manufacturing companies, reducing support resolution time and improving response accuracy by 25%</span>
+                  <span>Contributed to the development of a tailored chatbot solution for vehicle manufacturers to improve diagnostic accuracy in manufacturing workflows, minimizing manual intervention and improving response time and accuracy by 25%</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Leveraged AWS Forecast to analyze over 50k transactions, identifying trends that improved retail decision-making, optimized supply chain planning, and boosted overall operational efficiency by 15% quarter-over-quarter</span>
+                  <span>Leveraged AWS Forecast to analyze 50,000+ transactions, identifying demand-driven trends that enhanced retail decision-making, optimized supply chain planning, and boosted operational efficiency by 15% quarter-over-quarter</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Developed and maintained over 30 datasets to train the chatbot and generate diverse outputs across multiple user scenarios</span>
+                  <span>Engineered and versioned 30+ domain-specific datasets to simulate diverse user intents, improve training coverage and model generalization, and enhance chatbot response quality across complex manufacturing and supply chain scenarios</span>
                 </li>
               </ul>
             </div>
@@ -238,11 +238,11 @@ export default function Home() {
               <ul className="mt-3 space-y-2 text-sm">
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Conducted quantitative analysis of macroeconomic indicators (GDP trends, inflation rates) across 10+ countries using R and Excel, identifying key growth opportunities that informed strategic initiatives for global expansion</span>
+                  <span>Conducted quantitative analysis of macroeconomic indicators (GDP trends, inflation rates) across 10+ countries using R and Excel, identifying key growth opportunities that directly informed strategic initiatives for global expansion</span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-gray-400">•</span>
-                  <span>Partnered with business administrators to implement targeted economic strategies, addressing both short- and long-term institutional goals, and promoting sustained development across 100+ industries</span>
+                  <span>Partnered closely with business administrators to implement targeted economic strategies, addressing both short- and long-term institutional goals, and promoting sustained development and innovation across 100+ industries</span>
                 </li>
               </ul>
             </div>
@@ -257,7 +257,7 @@ export default function Home() {
                 <div className="flex justify-between items-baseline flex-wrap gap-2 mb-2">
                   <h3 className="text-2xl md:text-3xl font-semibold">Factor Alpha</h3>
                   <span className="text-sm md:text-base text-gray-600 dark:text-gray-400">
-                    Jul. 2026 - Aug. 2026
+                    Jul. 2025 - Aug. 2025
                   </span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
