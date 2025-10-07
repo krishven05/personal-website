@@ -85,7 +85,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col md:flex-row justify-between items-baseline gap-4 mb-6">
                 <p className="text-xl font-medium">
-                  Bachelor of Arts in Data Science and Economics
+                  Bachelor of Science in Data Science and Economics
                 </p>
                 <span className="text-lg text-gray-600 dark:text-gray-400">
                   Expected May 2027
