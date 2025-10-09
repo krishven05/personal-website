@@ -123,7 +123,7 @@ export default function Home() {
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm experience-card">
               <div className="mb-2">
                 <div className="flex justify-between items-baseline flex-wrap gap-2">
-                  <h3 className="text-2xl font-semibold">Software Engineer Intern</h3>
+                  <h3 className="text-2xl font-semibold">Data Engineer Intern</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">
                     May 2025 - Aug. 2025
                   </span>
