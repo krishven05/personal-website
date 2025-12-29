@@ -96,6 +96,18 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-2 course-item">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Data Mining</span>
+                  </div>
+                  <div className="flex items-center space-x-2 course-item">
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Intro to Artifical Intelligence</span>
+                  </div>
+                  <div className="flex items-center space-x-2 course-item">
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                    <span style={{color: '#ffffff'}}>Computer Vision</span>
+                  </div>
+                  <div className="flex items-center space-x-2 course-item">
+                    <span className="w-2 h-2 bg-white rounded-full"></span>
                     <span style={{color: '#ffffff'}}>Intro to Machine Learning</span>
                   </div>
                   <div className="flex items-center space-x-2 course-item">
@@ -261,7 +273,7 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
-                  {["Python", "pandas", "NumPy"].map((tech) => (
+                  {["Python", "Pandas", "NumPy"].map((tech) => (
                     <span key={tech} className="text-sm px-3 py-1 bg-black/30 border border-gray-700/50 rounded-xl mr-2 mb-2 inline-block">
                       {tech}
                     </span>
@@ -292,7 +304,7 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2">
-                  {["JavaScript", "MongoDB", "Oracle", "Data Migration"].map((tech) => (
+                  {["JavaScript", "MongoDB"].map((tech) => (
                     <span key={tech} className="text-sm px-3 py-1 bg-black/30 border border-gray-700/50 rounded-xl mr-2 mb-2 inline-block">
                       {tech}
                     </span>
@@ -355,7 +367,7 @@ export default function Home() {
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Programming Languages</h3>
               <div className="flex flex-wrap gap-3">
-                {["C++", "Python", "JavaScript", "SQL", "R"].map((skill) => (
+                {["C++", "Python", "JavaScript", "SQL / DB2", "R"].map((skill) => (
                   <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
@@ -366,7 +378,7 @@ export default function Home() {
             <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm skill-card">
               <h3 className="text-3xl font-semibold mb-6">Frameworks & Libraries</h3>
               <div className="flex flex-wrap gap-3">
-                {["Flask", "React","TypeScript", "TensorFlow", "pandas", "NumPy"].map((skill) => (
+                {["Flask", "React","TypeScript", "TensorFlow", "Pandas", "NumPy"].map((skill) => (
                   <span key={skill} className="text-base px-4 py-2 bg-black/30 border border-gray-700/50 rounded-xl mr-3 mb-3">
                     {skill}
                   </span>
