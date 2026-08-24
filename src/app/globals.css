@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, sans-serif;
+}
+
+.intro-gradient {
+  position: fixed;
+  inset: -50%;
+  width: 200vw;
+  height: 200vh;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(25, 25, 25, 0.85) 25%,
+    rgba(45, 45, 45, 0.75) 50%,
+    rgba(25, 25, 25, 0.85) 75%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+  
+  background-size: 400% 400%;
+  animation: gradientShift 10s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+  transform: translateZ(0);
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Navigation link hover effect */
+a:hover span {
+  width: 100%;
+}
+
+/* Card hover effect for all sections */
+.experience-card,
+.project-card,
+.skill-card,
+.about-card,
+.education-card,
+.contact-card {
+  transition: transform 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.experience-card:hover,
+.project-card:hover,
+.skill-card:hover,
+.about-card:hover,
+.education-card:hover,
+.contact-card:hover {
+  transform: translateY(-4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Contact items hover effect */
+.contact-item {
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-2px);
+}
+
+/* Course items styling */
+.course-item {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .min-h-screen {
+    min-height: auto;
+  }
+  
+  section {
+    scroll-margin-top: 6rem;
+  }
+  
+  .experience-card,
+  .project-card,
+  .skill-card,
+  .about-card,
+  .education-card,
+  .contact-card {
+    padding: 1rem;
+  }
+}
+
+/* Desktop scroll margin */
+@media (min-width: 769px) {
+  section {
+    scroll-margin-top: 5rem;
+  }
+}
+
+/* Slide animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 0.8s ease-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInFromRight 0.8s ease-out forwards;
+}
