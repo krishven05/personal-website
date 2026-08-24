@@ -87,7 +87,7 @@ const projects = [
 const skills = [
   {
     category: "Languages",
-    items: ["C++", "Python", "Java", "SQL", "R"],
+    items: ["C++", "Python", "Java", "SQL", "R", "TypeScript", "JavaScript"],
   },
   {
     category: "Frameworks",
