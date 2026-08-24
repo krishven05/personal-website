@@ -43,7 +43,7 @@ const experiences = [
     location: "Ann Arbor, Michigan",
     bullets: [
       "Engineered a real estate chatbot leveraging the ATTOM property data API and GPT-4 NLP models, automating user query workflows, reducing manual intervention, and improving scalability across multiple real estate market segments",
-      "Built AWS cloud infrastructure (DynamoDB, S3) to securely store and retrieve over 10,000 user documents, ensuring 99.99% uptime and compliance with data security standards, while reducing data access latency by 60% on average",
+      "Built AWS cloud infrastructure (DynamoDB, S3) to securely store and retrieve over 10,000 user documents, ensuring high uptime and compliance with data security standards, while reducing data access latency by 60% on average",
       "Designed a backend using Flask that classifies user queries into categories, providing responses from the API or OpenAI, cutting query handling time by 25%, integrated with React/TypeScript frontend to create a user-friendly interface",
     ],
   },
@@ -87,7 +87,7 @@ const projects = [
 const skills = [
   {
     category: "Languages",
-    items: ["C++", "Python", "Java", "SQL", "R", "TypeScript", "JavaScript"],
+    items: ["C++", "Python", "Java", "SQL", "R", "JavaScript", "TypeScript"],
   },
   {
     category: "Frameworks",
@@ -172,8 +172,8 @@ export default function Home() {
                   My name is Krishanth, and I love data, coding, and problem-solving.
                 </p>
                 <p className="text-xl md:text-2xl leading-relaxed">
-                  I am a senior at the University of Michigan studying data science and
-                  economics. I&apos;m passionate about leveraging new technologies, data
+                  I am a senior at the University of Michigan studying data science.
+                  I&apos;m passionate about leveraging new technologies, data
                   analysis, and machine learning to create innovative solutions to real-world
                   problems.
                 </p>
