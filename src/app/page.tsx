@@ -98,7 +98,7 @@ const skills = [
     items: [
       "AWS",
       "Databricks",
-      "Power Bi",
+      "Power BI",
       "Jira",
       "Bitbucket",
       "Git Bash",
