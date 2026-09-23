@@ -203,7 +203,7 @@ export default function Home() {
                 Bachelor of Science in Data Science
               </p>
               <span className="text-lg text-gray-600 dark:text-gray-400">
-                Expected Graduation Date: May 2027
+                Expected Graduation Date: December 2026
               </span>
             </div>
             <div className="mt-6">
